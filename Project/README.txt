@@ -47,14 +47,4 @@ Link to source: https://www.faa.gov/av-info/download_SDR
     The Safety Defect Report / Service Difficulty Report CSV files are gathered from the FAA and are the base of this project.
     The available CSV files from the FAA are used within this project, from the year 1995 up until 2026.
 
-- csv_to_db.py:
-    Summary:
-    Python script used to convert CSV data into a sqlite3 database for a more cohesive and centralized data source.
-    This script can be seen as a portal between the raw CSV data and the structured database used by the application.
-
-- SDR_database.db:
-    Summary:
-    SQLite database used to collect data from csv_to_db.py with CSV files gathered from the FAA.
-    This database is used to inspect, filter, query, and visualise SDR data within the GUI.
-
 ##########################################################################################
