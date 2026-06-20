@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+<h1>Quote</h1>
+
+<form method="POST">
+    <input type="text" name="symbol" placeholder="Symbol">
+    <input type="submit" value="Get quote">
+</form>
+
+{% if quote %}
+    <h2>{{ quote.name }} / {{ quote.symbol }}</h2>
+    <p>Price: {{ quote.price | usd }}</p>
+{% endif %}
+
+{% endblock %}

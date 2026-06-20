@@ -1,0 +1,9 @@
+﻿// Dagobert
+// Tjeerd, Sharonda, Rogier Group 5
+var random;
+ 
+while (true) {
+  random = Math.random() * 360;
+  swim(random);
+  cannon(random, scan(random));
+}

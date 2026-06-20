@@ -1,0 +1,15 @@
+colorist==1.8.14
+MouseInfo==0.1.3
+pillow==12.2.0
+PyAutoGUI==0.9.54
+PyGetWindow==0.0.9
+PyMsgBox==2.0.1
+pynput==1.8.2
+pyperclip==1.11.0
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.1
+PyQt6_sip==13.11.1
+PyRect==0.2.0
+PyScreeze==1.0.1
+pytweening==1.2.0
+six==1.17.0
