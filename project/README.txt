@@ -7,7 +7,11 @@ How to open the application:
 
 1. Open the project folder in a terminal.
 
-2. Activate the virtual environment:
+2. Create virtual environment:
+   
+   python -m venv sdr_venv
+
+3. Activate the virtual environment:
 
    Windows PowerShell:
    .\sdr_venv\Scripts\Activate.ps1
@@ -15,15 +19,15 @@ How to open the application:
    Git Bash:
    source sdr_venv/Scripts/activate
 
-3. Install the required libraries if needed:
+4. Install the required libraries if needed:
 
    pip install -r requirements.txt
 
-4. Go to the main folder:
+5. Go to the main folder:
 
    cd main
 
-5. Start the GUI application:
+6. Start the GUI application:
 
    python gui.py
 
