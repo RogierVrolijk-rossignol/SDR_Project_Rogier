@@ -1,7 +1,7 @@
 - open 'project' for scripts.
     * before trying to start the project, please read the 'README.txt' file inside of the project folder, thanks in advance!
+    * for project input data please refer to this link: 'https://www.faa.gov/av-info/download_SDR' to download SDR CSVs.
  
-- open 'sdr_csvs' to use within the project as input data.
 
 - open 'portfolio_rogier.pdf' for reviewing portfolio.
 
